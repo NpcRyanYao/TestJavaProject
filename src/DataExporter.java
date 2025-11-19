@@ -7,6 +7,14 @@ import java.util.List;
  */
 public class DataExporter {
 
+    public boolean exportDataFunction(List<Int> intData, String PatH) {
+        // 校验输入参数
+        if (processedData == null || processedData.isEmpty()) {
+            System.out.println("❌ 无有效数据可导出");
+            return false;
+        }
+    }
+
     /**
      * 导出处理后的数据（模拟导出到文件）
      * @param processedData 处理后的数据（来自DataProcessor）
